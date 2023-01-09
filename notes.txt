@@ -1,0 +1,34 @@
+VPC
+- Security Groups
+    - Stateful
+    - By default all ports access are denied.
+    - Created when the EC2 instance respawn
+
+- NACL
+    - Stateless
+    - By default all traffic is allowed
+    - Every rule applies to one direction
+    - Multiple ACL in one VPC, but one ACL per subnet.
+    - Can control traffic within one VPC
+
+EC2 (Elastic Cloud Computing)
+    - Virtualization types:
+        - Hardware Virtual Machine (HVM)
+        - Paravirtualization (PV)
+    - Instances pricing models:
+        On-Demand Instances
+        Reserved Instances
+        Spot Instances
+        Dedicated Instances
+        Dedicated Hosts
+    - It's required to define CPU, RAM and Disk.
+    - Amazon Machine Images (AMIs)
+    - Instance types:
+        General purpose
+        Compute optimized
+        Memory optimized
+        Storage optimized
+        Accelerated computing
+    - Elastic Network Interface (ENI)
+    - Recovery Time Objective (RTO)
+    - Recovery Point Objective (RPO)
